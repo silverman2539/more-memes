@@ -1,0 +1,163 @@
+<html>
+	<head>
+		<title>More Memes!</title>
+		<style>
+			body
+			{
+				background-color: ivory;
+				border-color: gold;
+				color: gold;
+				font-size: 50;
+				text-align: center;
+				padding: 25;
+				border-style: solid;
+			}
+			img
+			{
+				width: 325;
+				border-style: solid;
+				border-color: gold;
+			}
+			.meme
+			{
+				width: 250;
+			}
+			div
+			{
+				border-style: solid;
+				border-color: gold;
+				background-color: ivory;
+				padding: 25;
+				position: fixed;
+				display: inline;
+				z-index: 1;
+				top: 50%;
+				left: 50%;
+				-ms-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+			}
+			button
+			{
+				background-color: lightyellow;
+				color: gold;
+				border-color: gold;
+				border-style: solid;
+				font-size: 20;
+			}
+			button:hover
+			{
+				opacity: 50%;
+				transition: 0.5s;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="meme1" style="display:none; width:525;">
+			<img class="meme" src="extra-memes-page-001.jpg">
+			<img class="meme" src="extra-memes-page-002.jpg">
+			<br>
+			<button onclick="Close()">Close</button>
+		</div>
+		
+		<div id="meme2" style="display:none; width:1065;">
+			<img class="meme" src="extra-memes-page-003.jpg">
+			<img class="meme" src="extra-memes-page-004.jpg">
+			<img class="meme" src="extra-memes-page-005.jpg">
+			<img class="meme" src="extra-memes-page-006.jpg">
+			<br>
+			<button onclick="Close()">Close</button>
+		</div>
+		
+		<p>I have more memes for you!</p>
+		<p>I hope you enjoy it!</p>
+		<img src="memes-page-002.jpg" onclick="Meme2()">
+		<img src="memes-page-002.jpg" onclick="Meme1()">
+		<img src="memes-page-003.jpg">
+		<img src="memes-page-004.jpg">
+		<img src="memes-page-005.jpg">
+		<img src="memes-page-006.jpg">
+		<img src="memes-page-007.jpg">
+		<img src="memes-page-008.jpg">
+		<img src="memes-page-009.jpg">
+		<img src="memes-page-010.jpg">
+		<img src="memes-page-011.jpg">
+		<img src="memes-page-012.jpg">
+		<img src="memes-page-013.jpg">
+		<img src="memes-page-014.jpg">
+		<img src="memes-page-015.jpg">
+		<img src="memes-page-016.jpg">
+		<img src="memes-page-017.jpg">
+		<img src="memes-page-018.jpg">
+		<img src="memes-page-019.jpg">
+		<img src="memes-page-020.jpg">
+		<img src="memes-page-021.jpg">
+		<img src="memes-page-022.jpg">
+		<img src="memes-page-023.jpg">
+		<img src="memes-page-024.jpg">
+		<img src="memes-page-025.jpg">
+		<img src="memes-page-026.jpg">
+		<img src="memes-page-027.jpg">
+		<img src="memes-page-028.jpg">
+		<img src="memes-page-029.jpg">
+		<img src="memes-page-001.jpg">
+		<img src="memes-page-031.jpg">
+		<img src="memes-page-032.jpg">
+		<img src="memes-page-033.jpg">
+		<img src="memes-page-034.jpg">
+		<img src="memes-page-035.jpg">
+		<img src="memes-page-036.jpg">
+		<img src="memes-page-037.jpg">
+		<img src="memes-page-038.jpg">
+		<img src="memes-page-039.jpg">
+		<img src="memes-page-040.jpg">
+		<img src="memes-page-041.jpg">
+		<img src="memes-page-042.jpg">
+		<img src="memes-page-043.jpg">
+		<img src="memes-page-044.jpg">
+		<img src="memes-page-045.jpg">
+		<img src="memes-page-046.jpg">
+		<img src="memes-page-047.jpg">
+		<img src="memes-page-048.jpg">
+		<img src="memes-page-049.jpg">
+		<img src="memes-page-050.jpg">
+		<img src="memes-page-051.jpg">
+		<img src="memes-page-052.jpg">
+		<img src="memes-page-053.jpg">
+		<img src="memes-page-054.jpg">
+		<img src="memes-page-055.jpg">
+		<img src="memes-page-056.jpg">
+		<img src="memes-page-057.jpg">
+		<img src="memes-page-058.jpg">
+		<img src="memes-page-059.jpg">
+		<img src="memes-page-060.jpg">
+		<img src="memes-page-061.jpg">
+		<img src="memes-page-062.jpg">
+		<img src="memes-page-063.jpg">
+		<img src="memes-page-064.jpg">
+		<img src="memes-page-065.jpg">
+		<img src="memes-page-066.jpg">
+		<img src="memes-page-067.jpg">
+		<img src="memes-page-068.jpg">
+		<img src="memes-page-069.jpg">
+		
+		<script>
+			function Meme1()
+			{
+				document.getElementById("meme1").style.display = "";
+				document.body.style.overflow = "hidden";
+			}
+			function Meme2()
+			{
+				document.getElementById("meme2").style.display = "";
+				document.body.style.overflow = "hidden";
+			}
+			function Close()
+			{
+				document.getElementById("meme1").style.display = "none";
+				document.getElementById("meme2").style.display = "none";
+				document.body.style.overflow = "auto";
+			}
+		</script>
+	</body>
+</html>
